@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    article{
+        display: flex;
+        position: relative;
+        margin: 0 auto;
+        top: 200px;
+        width: 1000px;
+        height: 500px;
+        
+    }
+
+    #eventInfo, #eventDetail{
+        width: 50%;
+        
+    }
+
+    #eventDetail{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(95, 95, 95);
+    }
+    .dateCard{
+        display: flex;
+        margin: 2%;
+        width: 80%;
+        height: 25%;
+        background-color: #fff;
+    }
+    .date{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        font-size: 1.2rem;
+        background-color: black;
+    }
+    .detail{
+        width: 100%;
+        padding: 4px;
+    }
+    .text{
+        width: 100%;
+        height: 100%;
+        padding: 3px;
+        font-size: 13px;
+    }
+    .q,.a{
+        color: black;
+    }
+    .btn{
+        color: rgb(228, 95, 228);
+        border: 1px solid rgb(228, 95, 228);
+        width: 90px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #eventInfo{
+        background: url("images/gfg.jpeg") no-repeat center center;
+        background-size: cover;
+    }
+
+    #content{
+        background-color:rgba(0, 0, 0, 0.562);
+        width: 90%;
+        height: 60%;
+        padding: 40px;
+        margin: 5%
+    }
+
+    #content>p{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+</style>
+
+
+
+<body>
+    <header>
+        <nav>
+            <img src="/02_Assignment/images/camico.jpeg" alt="">
+            <ul>
+                <li id="link1">Home</li>
+                <li id="link2">Service</li>
+                <li id="link3">About</li>
+                <li id="link4">Contact</li>
+                <li id="link5">Blog</li>
+            </ul>
+            <button>Log in</button>
+        </nav>
+    </header>
+
+    <section>
+        <div id="textPart">
+            <p class="red">#Get Your 14 Day Free Trail</p>
+            <h1>Manage All Of Your Stuff Using A TGB</h1>
+            <p id="extras">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos incidunt quae at aut modi culpa reiciendis
+                porro quaerat, corrupti velit dolore rerum, illum ab? Possimus delectus est omnis at soluta.</p>
+            <div id="userRecord">
+                <span><img src="/02_Assignment/images/tree.jpg" alt=""></span>
+                <span><img src="/02_Assignment/images/tree.jpg" alt=""></span>
+                <span><img src="/02_Assignment/images/tree.jpg" alt=""></span>
+                <span><img src="/02_Assignment/images/tree.jpg" alt=""></span>
+                <span><p>4M+ users</p></span>
+            </div>
+
+            <button id="lm">Learn More</button>
+        </div>
+        <div id="imgPart">
+            <img id="ip14" src="/02_Assignment/images/ip14.png" alt="">
+        </div>
+    </section>
+
+
+    <article>
+        <div id="eventInfo">
+            <div id="content">
+                <h1>EVENTS AND SHOWS</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa provident, accusamus dolor tempore rem adipisci sequi ducimus. Totam delectus quasi error animi ipsum, atque alias pariatur voluptatum? Aliquam ex at provident nostrum inventore quae ratione fugit esse, molestiae iusto suscipit molestias quasi earum quisquam laboriosam repellendus. Non adipisci consequatur itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perferendis dignissimos accusantium quam expedita quasi sequi molestias temporibus numquam saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quia enim tempora omnis corporis aspernatur voluptatibus, aliquam animi necessitatibus similique, voluptas nam nemo saepe veritatis ex adipisci consequatur ad minus. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam maiores, nihil odio quas numquam assumenda ex dolor in exercitationem recusandae eos sint alias. Perferendis debitis repellendus accusamus illum pariatur officiis officia recusandae. Deserunt, natus minima blanditiis explicabo voluptate tempore at sed! Expedita earum quasi tenetur veritatis esse? Repudiandae, adipisci alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eaque sunt mollitia autem non tenetur adipisci beatae veritatis fugiat iusto. Aspernatur iusto quo officia soluta magni placeat, unde et ducimus debitis non neque magnam molestiae accusamus minima. Tempore, nihil ipsam!</P>
+            </div>
+        </div>
+        <div id="eventDetail">
+            <div class="dateCard">
+                <div class="date"><h1>15</h1><h1>March</h1></div>
+                <div class="detail">
+                    <div class="text">
+                        <p class="q">Where the event is happening?</p>
+                        <p class="a">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A neque eveniet corrupti illo nisi? Id. lorem</p>
+                        <div class="btn"><p>View Details</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dateCard">
+                <div class="date"><h1>27</h1><h1>May</h1></div>
+                <div class="detail">
+                    <div class="text">
+                        <p class="q">Where the event is happening</p>
+                        <p class="a">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A neque eveniet corrupti illo nisi? Id.</p>
+                        <div class="btn"><p>View Details</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dateCard">
+                <div class="date"><h1>12</h1><h1>August</h1></div>
+                <div class="detail">
+                    <div class="text">
+                        <p class="q">Where the event is happening?</p>
+                        <p class="a">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A neque eveniet corrupti illo nisi? Id.</p>
+                        <div class="btn"><p>View Details</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</body>
+
+</html>

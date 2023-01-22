@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+header>nav{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+
+nav{
+    margin: 1px;
+    padding: 10px;
+}
+
+nav>ul{
+    list-style: none;
+    display:flex;
+}
+
+nav>ul>li{
+    padding: 15px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+#link1{
+    color: red;
+}
+
+nav>button{
+    font-size: 1rem;
+    padding: 4px;
+    width: 62px;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+}
+
+nav>img{
+    width: 40px;
+}
+
+section{
+    position: relative;
+    top: 20px;
+    left: 200px;
+    margin-top: 30px;
+    border: 2px solid black;
+    width: 1000px;
+    height: 250px;
+    display: flex;
+}
+
+#textPart,#imgPart{
+    width: 50%;
+    height: 100%;
+}
+
+#textPart{
+    padding: 10px;
+}
+
+#ip14{
+    height: 100%;
+}
+
+.red{
+    color: red;
+}
+
+#textPart>h1{
+    font-size: 40px;
+}
+
+#extras{
+    font-size: 10px;
+}
+
+#userRecord{
+    position: relative;
+    top: 10px;
+    display: flex;
+}
+#userRecord>span>img{
+    width: 15px;
+    height: 15px;
+    border: 1px solid red;
+    border-radius: 94px;
+}
+
+#lm{
+    width: 100px;
+    position: relative;
+    top: 30px;
+    height: 25px;
+    border-radius: 6px;
+    color: white;
+    background-color: red;
+    font-weight: 600;
+}
